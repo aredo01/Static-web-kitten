@@ -33,7 +33,7 @@ Resources:
         systemctl start httpd
         systemctl enable httpd
         cd /var/www/html
-        FOLDER="https://github.com/aredo01/Static-web-kitten/tree/main/static-web"
+        FOLDER="https://raw.githubusercontent.com/aredo01/Static-web-kitten/refs/heads/main/static-web"
         wget ${FOLDER}/index.html
         wget ${FOLDER}/cat0.jpg
         wget ${FOLDER}/cat1.jpg
